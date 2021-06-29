@@ -2,6 +2,8 @@ public class Task1_2 {
 
     public static void main(String[] args) {
 
+// ①「JAPAN」、「AMERICA」、「KOREA」を要素の値（初期値）とする配列 countryを作成しなさい。
+
         String[] country = {"JAPAN", "AMERICA", "KOREA"};
 
         System.out.println("配列countryの要素数…"+ country.length);
