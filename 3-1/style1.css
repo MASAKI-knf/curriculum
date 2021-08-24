@@ -1,0 +1,33 @@
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+
+.header{
+    width: 400px;
+    height: 100px;
+    background-color: red;
+}
+/* .main{
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+} */
+.left{
+    width: 200px;
+    height: 100px;
+    background-color:green;
+    float: left;
+}
+.right{
+    width: 200px;
+    height: 100px;
+    background-color:pink;
+    float: left;
+}
+.footer{
+    width: 400px;
+    height: 100px;
+    background-color:yellow;
+}
