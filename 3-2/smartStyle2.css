@@ -3,43 +3,20 @@
     #wrapper {
         width: 300px;
     }
-    .right1{
+    .main1{
         width: 125px;
-        height: 50px;
     }
-    .right2{
-        width: 125px;
-        height: 100px;
-    }
-    .right3{
+    .main2{
         width: 75px;
-        height: 150px;
-    }
-    .right4{
-        width: 200px;
-        height: 100px;
     }
     .left{
         width: 100px;
-        height: 250px;
     }
-    .footer{
-        height: 100px;
-    }
-    .header{
-        height: 100px;
-    }
-
-
 }
 @media screen and (max-width: 479px) {
 
     #wrapper{
         width: 150px;
-        height: 100px;
     }
-    .right1{
-        height: 50px;
-    }
-
+    
 }
