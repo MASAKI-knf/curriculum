@@ -105,3 +105,88 @@
     height: 100px;
     background-color: #d98d30;
 }
+
+
+@media screen and (max-width: 479px) {
+    
+    .header{
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+    .header1{
+        width: 60px;
+        height: 160px;
+        float: left;
+        position: absolute;
+        top: 20px;
+        left: 70px;
+    }
+    .header2{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .header3{
+        position: absolute;
+        top: 60px;
+        left: 10px;
+    }
+    .header4{
+        position: absolute;
+        top: 110px;
+        left: 10px;
+    }
+    .left{
+        width: 200px;
+        height: 100px;
+        float: none;
+    }
+    .right{
+        width: 200px;
+        height: 180px;
+        float: none;
+        position: relative;
+    }
+    .right1{
+        width: 140px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+    .right1-1{
+        width: 130px;
+        height: 30px;
+        margin: 5px 5px 5px 5px;
+    }
+    .right2{
+        width: 140px;
+        height: 40px;
+        position: absolute;
+        top: 70px;
+        left: 30px;
+    }
+    .right2-1{
+        width: 130px;
+        height: 30px;
+        margin: 5px 5px 5px 5px;
+    }
+    .right3{
+        width: 140px;
+        height: 40px;
+        position: absolute;
+        bottom: 20px;
+        left: 30px;
+    }
+    .right3-1{
+        width: 130px;
+        height: 30px;
+        margin: 5px 5px 5px 5px;
+    }
+    .footer{
+        width: 200px;
+        height: 100px;
+        float: none;
+    }
+}
