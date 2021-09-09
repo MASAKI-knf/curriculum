@@ -1,0 +1,32 @@
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+.jsp{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.header{
+	background-color: gray;
+}
+.login{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+.cal{
+	display: inline-block;
+	padding: 10px;
+	font-size: 10px;
+	color: black;
+}
+.footer{
+	background-color: gray;
+}
+.hoge{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
