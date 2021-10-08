@@ -30,7 +30,6 @@ public class ExException {
     private static final String CONST_MSG_NOT_EXCEPTION_TRIGGER = "例外の発生しないパラメーターです。";
     private static final String CONST_MSG_NULLPO = "ヌルポです。";
     
-    private static String nullString = null;
 
     public static void main(String[] args) {
 
@@ -38,7 +37,7 @@ public class ExException {
         int parameter;
         int retryCounter = 0;
         Scanner sc;
-       
+    
 
         do {
 
@@ -48,6 +47,7 @@ public class ExException {
             try {
 
                 final int execute = sc.nextInt();
+                
 
                 // 早期処理戻し
                 if (execute == -1) break;
@@ -65,8 +65,7 @@ public class ExException {
                     // 問①: 強制的に「NullPointerException」を発生させるメソッドを作成し、呼び出しなさい。
                     // 問①は最下部にもあります。
                     // ルール: ここへ作成したメソッドを呼び出す
-                
-                    System.out.println(nullString.isEmpty());
+                    	sample();
                     
                     break;
                     case CONST_EXCEPTION_TRIGER_ARRAY_OUT_OF_BOUNDS:
@@ -111,8 +110,8 @@ public class ExException {
      * ルール2: 例外発生時に設定するメッセージは、定義済みの定数から適当なものを指定してください。
      */
     // ここへ記述
-    		static void parameter()throws NullPointerException{
-    		throw new NullPointerException(CONST_MSG_NULLPO);
+    private static void sample() throws NullPointerException{
+      throw new NullPointerException(CONST_MSG_NULLPO);
     		}
     
 
