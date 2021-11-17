@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+/Users/MK.knf/git/repository/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1166496481.index
+/JspTest2/src/main/java
+/Users/MK.knf/git/repository/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1592841887.index
+/Check3/src/main/java
+/Users/MK.knf/git/repository/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/438659366.index
+/Check3/src/main/java

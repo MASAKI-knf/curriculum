@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+    <category expanded="true" name="カテゴリーなし">
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Check"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="JspTest2"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (1)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Study"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Study (1)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Study (2)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Tomcat10_Java16"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Tomcat6_Java6"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Tomcat7_Java7"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Tomcat8_Java8"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Tomcat9_Java11"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Tomcat9_Java16"/>
+    </category>
+</runner>

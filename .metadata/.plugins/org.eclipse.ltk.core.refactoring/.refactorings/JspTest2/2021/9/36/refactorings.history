@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;WebContent&apos; to &apos;webapp&apos;&#x0A;- 元のプロジェクト: &apos;JspTest2&apos;&#x0A;- 宛先要素: &apos;webapp&apos;&#x0A;- オリジナル要素: &apos;WebContent&apos;&#x0A;- リファクタリングされた要素の参照を更新" description="フォルダーを移動" element1="WebContent" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1630599249942" target="src/main/webapp" units="0" version="1.0"/>
+</session>

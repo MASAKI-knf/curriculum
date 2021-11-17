@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+/Users/MK.knf/git/repository/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2109488832.index
+2623413681.index
+896230358.index
+3253081551.index
+1495609299.index
+3096145978.index
+311043671.index
+4222055287.index
+402420235.index

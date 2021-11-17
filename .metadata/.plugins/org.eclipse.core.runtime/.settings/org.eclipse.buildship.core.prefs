@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+arguments=-Porg.gradle.java.installations.paths\=/Applications/Eclipse_2021-06.app/Contents/java/6,/Applications/Eclipse_2021-06.app/Contents/java/7,/Applications/Eclipse_2021-06.app/Contents/java/8,/Applications/Eclipse_2021-06.app/Contents/java/11,/Applications/Eclipse_2021-06.app/Contents/java/16
+auto.sync=true
+### Mac はビルドスクリプトでパス書き換え
+java.home=/Applications/Eclipse_2021-06.app/Contents/java/11/Home
