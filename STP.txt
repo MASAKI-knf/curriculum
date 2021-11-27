@@ -3,18 +3,17 @@ Switch3
 
 問２
 Switch1
-・F0/1　RP  Switch2から経由し、ブリッジIDが4番目に小さいため
-・F0/2　BP  このポートで防がないと無限ループするため
+・F0/1　DP  ルートポートの向かい側のポートのため
+・F0/2　RP  Switch1-Switch3=100に対し、Switch1-Switch2-Switch4-Switch3=219で前者の方が値が小さいため
 
 Switch2
-・F0/1　DP   ルートブリッジの向かいのポートのため
-・F0/2　RP　Switch4から経由し、ブリッジIDが3番目に小さいため
+・F0/1　RP  Switch2-Switch1-Switch3=119に対し、Switch2-Switch4-Switch3=200で前者の方が値が小さいため
+・F0/2　BP  RPとDPどちらにも該当しないため
 
 Switch3
 ・E0/1　DP   ルートブリッジのポートのため
 ・E0/2　DP   ルートブリッジのポートのため
 
 Switch4
-・E0/1　DP   ルートブリッジの向かいのポートのため
-・E0/2　RP　Switch1の経路と比較した際に最小経路が同等の値になるが、ブリッジIDを比較するとSwitch1より小さいため。
-
+・E0/1　DP  Switch4とSwitch2を比較しブリッジIDがSwitch4の方が小さいため
+・E0/2　RP　Switch4-Switch3=100に対し、Switch4-Switch2-Switch1-Switch3=219で前者の方が値が小さいため
